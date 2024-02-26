@@ -1,0 +1,126 @@
+.video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    border-color: wheat;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .reelBackground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .video source {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-color: wheat;
+  }
+  
+  .shortsVideoTop {
+    position: absolute;
+    min-width: fit-content;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shortsVideoTopIcon {
+    display: flex;
+  }
+  
+  .shortsVideoTopIcon > .MuiSvgIcon-root {
+    font-size: 32px;
+    padding: 10px;
+  }
+  
+  .shortsVideoSideIcons {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shortsVideoSideIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shortsVideoSideIcon > p {
+    color: white;
+  }
+  
+  .shortsVideoSideIcon > .MuiSvgIcon-root {
+    padding: 10px;
+    font-size: 28px;
+  }
+  
+  .MuiSvgIcon-root {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .shortDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shortDetails > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .shortDetails > button {
+    padding: 7px;
+    background-color: rgba(177, 177, 177, 0.609);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .shortDetails > button:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .shortsVideoSideIcon > .MuiSvgIcon-root:hover {
+    color: blue;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .video {
+      max-width: 100%;
+    }
+  }
+  
+  .searchBar {
+    position: relative;
+  }
+  
+  .searchBar input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 20px;
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    outline: none;
+  }
+  
